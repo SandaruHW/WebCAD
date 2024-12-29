@@ -1,0 +1,78 @@
+/* FeaturesSection.css */
+
+/* Style for the entire features section */
+.features {
+    display: flex;
+    flex-direction: column;  /* Stack items vertically (one box per row) */
+    align-items: center;     /* Center the boxes horizontally */
+    gap: 20px;               /* Space between the rows */
+    padding: 40px 0;
+    background-color:#000000;
+  }
+  
+  /* Style for each feature box */
+  .feature1 {
+    display: flex;
+    align-items: center;  /* Vertically center the items */
+    background: linear-gradient(to right, #2883A9, #0A151B);
+
+    border: 1px solid #ddd;  /* Light border around each box */
+    border-radius: 8px;      /* Rounded corners */
+    width: 90%;              /* Box width is 90% of the page width */
+    /*max-width: 1200px;  */     /* Optional: Set a max width to prevent boxes from becoming too wide */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;  /* Smooth transition for hover effect */
+    gap: 20px;  /* Space between the image and the text */
+  }
+  
+  .feature2 {
+    display: flex;
+    align-items: center;  /* Vertically center the items */
+    background: linear-gradient(to right, #0A151B, #2883A9);
+
+
+    border: 1px solid #ddd;  /* Light border around each box */
+    border-radius: 8px;      /* Rounded corners */
+    width: 90%;              /* Box width is 90% of the page width */
+    /*max-width: 1200px;  */     /* Optional: Set a max width to prevent boxes from becoming too wide */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;  /* Smooth transition for hover effect */
+    gap: 20px;  /* Space between the image and the text */
+  }
+  .feature:hover {
+    transform: translateY(-5px);  /* Slight lift effect on hover */
+  }
+  
+  /* Style for the image part */
+  .feature-image {
+    flex: 1;  /* Allow image to take up equal space */
+    max-width: 20%;  /* Set a max width for the image */
+  }
+  
+  .feature img {
+    width: 20%;
+    height: auto;
+    border-radius: 8px;  /* Rounded corners for the image */
+  }
+  
+  /* Style for the text part */
+  .feature-text {
+    flex: 2;  /* Allow text to take up more space */
+    font-family:'Inter', sans-serif;
+    
+  }
+  
+  .feature-text h3 {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .feature-text p {
+    font-size: 1rem;
+    color: white;
+  }
+  

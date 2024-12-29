@@ -1,0 +1,38 @@
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;  /* Decreased the vertical padding to reduce the height */
+    background-color: #2299C4;
+    color: white;
+    height:80px;
+  }
+  
+  
+  nav {
+    display:flex;         /* Keep the nav items in a row */
+    align-items: center;     /* Vertically center the nav items */
+      /* Reduced padding to decrease the height of the nav bar */
+    
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;          /* Reduced padding to decrease the height of each link */
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header styles */
+  .header .logo img {
+    height: 150px;  /* Adjust logo height if needed */
+    width: auto;
+    
+  }
+  
+  
